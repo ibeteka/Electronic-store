@@ -25,8 +25,7 @@ class Television extends ElectronicItem {
 
 	}
 	
-	
-	
+		
 	public function __construct(float $price, string $type)
 	{
 		$this->setType($type);
@@ -34,8 +33,11 @@ class Television extends ElectronicItem {
 		$this->setMaxExtra();
 	}
 	
-	
-	
+
+	public function watchTvShow()
+	{
+	  print_r( "Im watching flat TV");
+	}
 	
 	
 }

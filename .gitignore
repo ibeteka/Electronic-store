@@ -1,0 +1,5 @@
+.settings/
+.buildpath
+.project
+composer.json
+composer.phar
