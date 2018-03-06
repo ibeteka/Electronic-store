@@ -22,6 +22,7 @@ class Television extends ElectronicItem {
 		}
 		else
 			array_push($this->extras, $extra);
+		echo "TOTO";
 
 	}
 	
