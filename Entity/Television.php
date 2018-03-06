@@ -33,7 +33,12 @@ class Television extends ElectronicItem {
 		$this->setPrice($price);
 		$this->setMaxExtra();
 	}
-	
+
+	public function goToSleep()
+	[
+		$this->setType(null);
+		print_r("Im going to sleep at 10 oclock");
+	}	
 	
 	
 	
